@@ -23,7 +23,7 @@
             if (content.success) {
                 success = true;
 
-                if (content && content.data && content.data.available) {
+                if (content && content.data) {
                     dataLayerSU.push({
                         "event": "AeroinformEvent_78_2",
                         "eventCategory": "ab_test",
