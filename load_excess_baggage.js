@@ -25,7 +25,7 @@
 
             if (content && content.data && content.data.available) {
                 dataLayerSU.push({
-                    "event": "AeroinformEvent_78_2",
+                    "event": "AeroinformEvent_78_1",
                     "eventCategory": "ab_test",
                     "eventAction": "load_orgigin_service",
                     "eventLabel": "excess_baggage",
