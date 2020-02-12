@@ -1,6 +1,5 @@
 (function(){
     var success = false;
-
     for (var i = 0; i < 1; ++i) {
         if (success) {
             break;
