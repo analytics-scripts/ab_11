@@ -25,7 +25,7 @@
 
                 if (content && content.data) {
                     dataLayerSU.push({
-                        "event": "AeroinformEvent_78_2",
+                        "event": "AeroinformEvent_78_1",
                         "eventCategory": "ab_test",
                         "eventAction": "load_orgigin_service",
                         "eventLabel": "paid_meal",
