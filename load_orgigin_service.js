@@ -27,7 +27,7 @@
             if (content && content.data && content.data.ess_services) {
                 for (let id = 0; id < content.data.ess_services.length; id++) {
                     dataLayerSU.push({
-                        "event": "AeroinformEvent_78_2",
+                        "event": "AeroinformEvent_78_1",
                         "eventCategory": "ab_test",
                         "eventAction": "load_orgigin_service",
                         "eventLabel": content.data.ess_services[id].ess_service_name,
