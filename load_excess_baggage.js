@@ -17,7 +17,7 @@
                   headers: {
                     'Accept': 'application/json',
                     'Content-Type': 'application/json',
-                    'cookie': encodeURI(document.cookie)
+                    'cookie': unescape(encodeURIComponent(document.cookie))
                   },
                   body: '{"pnr_locator":"' + document.location.hash.split("pnr_locator=")[1].replace(/&.*/g, "") + '","pnr_key":"' + document.location.hash.split("pnr_key=")[1].replace(/&.*/g, "") + '","lang":"' + document.cookie.split("AF_preferredLanguage=")[1].replace(/;.*/, "").toLowerCase() + '","pos_country":"' + document.cookie.split("POS_COUNTRY=")[1].replace(/;.*/, "").toLowerCase() + '"}'
                 });
